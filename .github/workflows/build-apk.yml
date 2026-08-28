@@ -24,6 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Prepare web assets
+        run: |
+          mkdir -p www
+          cp index.html script.js style.css workout365.json www/
+
       - name: Sync Capacitor
         run: node node_modules/@capacitor/cli/bin/capacitor sync android
 
