@@ -1,0 +1,7749 @@
+{
+  "program": "TargettApp 365",
+  "version": "1.0",
+  "duration_minutes": 8,
+  "type": "AMRAP",
+  "structure": "3 esercizi a rotazione",
+  "rules": {
+    "exercise_count": 3,
+    "equipment_rule": "Un solo tipo di carico per allenamento",
+    "weight_rule": "Un solo peso per tutto l'allenamento",
+    "barbell_and_dumbbells_together": false
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "Adattamento",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Squat",
+              "reps": 8
+            },
+            {
+              "name": "Glute bridge",
+              "reps": 10
+            },
+            {
+              "name": "Step-up",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "focus": "Schiena",
+          "equipment": "Elastico leggero",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 10
+            },
+            {
+              "name": "Face pull",
+              "reps": 8
+            },
+            {
+              "name": "Pull-apart",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 4,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 8
+            },
+            {
+              "name": "Alzate laterali",
+              "reps": 8
+            },
+            {
+              "name": "Estensione tricipiti",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Dead bug",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Crunch",
+              "reps": 10
+            },
+            {
+              "name": "Plank",
+              "seconds": 15
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati",
+              "reps": 6
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 5
+            },
+            {
+              "name": "Plank shoulder tap",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cat-cow",
+              "reps": 6
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 3,
+              "per_side": true
+            },
+            {
+              "name": "Squat hold",
+              "seconds": 20
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 8
+            },
+            {
+              "name": "KB deadlift",
+              "reps": 8
+            },
+            {
+              "name": "KB swing",
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "focus": "Volume",
+      "days": [
+        {
+          "day": 8,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Squat",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Glute bridge",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "focus": "Schiena",
+          "equipment": "Elastico leggero",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 10
+            },
+            {
+              "name": "Pull-apart",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 4,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 8
+            },
+            {
+              "name": "Triceps kickback",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Dead bug",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Crunch",
+              "reps": 12
+            },
+            {
+              "name": "Plank",
+              "seconds": 20
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati",
+              "reps": 8
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 6
+            },
+            {
+              "name": "Shoulder tap",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cat-cow",
+              "reps": 8
+            },
+            {
+              "name": "Affondo con rotazione",
+              "reps": 4,
+              "per_side": true
+            },
+            {
+              "name": "Squat hold",
+              "seconds": 25
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 10
+            },
+            {
+              "name": "KB deadlift",
+              "reps": 10
+            },
+            {
+              "name": "KB swing",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "focus": "Difficoltà",
+      "days": [
+        {
+          "day": 15,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Squat tempo 3-1-1",
+              "reps": 8
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Step-up",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 10
+            },
+            {
+              "name": "Face pull",
+              "reps": 10
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 8
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 8
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise bent-knee",
+              "reps": 6
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 25
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 8
+            },
+            {
+              "name": "Push-up inclinati",
+              "reps": 8
+            },
+            {
+              "name": "Slow push-up inclinato",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Deep squat hold",
+              "seconds": 30
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 4,
+              "per_side": true
+            },
+            {
+              "name": "Downward dog to cobra",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 10
+            },
+            {
+              "name": "KB clean",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "focus": "Primo salto",
+      "days": [
+        {
+          "day": 22,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 8
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown con elastico",
+              "reps": 10
+            },
+            {
+              "name": "Face pull",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 8
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 8
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 30
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 10
+            },
+            {
+              "name": "Push-up inclinati bassi",
+              "reps": 6
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 4,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 40
+            },
+            {
+              "name": "Downward dog to cobra",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 10
+            },
+            {
+              "name": "KB swing",
+              "reps": 15
+            },
+            {
+              "name": "Push-up inclinati",
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "focus": "Consolidamento",
+      "days": [
+        {
+          "day": 29,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown con elastico",
+              "reps": 10
+            },
+            {
+              "name": "Face pull",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 31,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 32,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 10
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 35
+            }
+          ]
+        },
+        {
+          "day": 33,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati bassi",
+              "reps": 8
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 10
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 34,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 45
+            }
+          ]
+        },
+        {
+          "day": 35,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "KB deadlift",
+              "reps": 12
+            },
+            {
+              "name": "KB swing",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "focus": "Unilaterale",
+      "days": [
+        {
+          "day": 36,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Bulgarian split squat",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Step-up",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 37,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore unilaterale",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Face pull",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 38,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Alternating curl",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Arnold press",
+              "reps": 8
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 39,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Dead bug",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Side plank",
+              "seconds": 20,
+              "per_side": true
+            },
+            {
+              "name": "Reverse crunch",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 40,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati bassi",
+              "reps": 10
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 10
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 41,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 8
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 45
+            }
+          ]
+        },
+        {
+          "day": 42,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "KB clean",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "focus": "Controllo",
+      "days": [
+        {
+          "day": 43,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Goblet squat tempo 3-1-1",
+              "reps": 8
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 44,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore tempo 3-1-1",
+              "reps": 10
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 45,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Curl tempo 3-1-1",
+              "reps": 8
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 46,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Slow reverse crunch",
+              "reps": 10
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 40
+            }
+          ]
+        },
+        {
+          "day": 47,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati bassi",
+              "reps": 10
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 12
+            },
+            {
+              "name": "Push-up negativo lento",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 48,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Deep squat hold",
+              "seconds": 50
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 49,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat tempo",
+              "reps": 10
+            },
+            {
+              "name": "KB clean",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "focus": "Primo benchmark",
+      "days": [
+        {
+          "day": 50,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 7,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 51,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 52,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 53,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 12
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 45
+            }
+          ]
+        },
+        {
+          "day": 54,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up inclinati bassi",
+              "reps": 10
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 12
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 55,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 12
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 56,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "KB swing",
+              "reps": 15
+            },
+            {
+              "name": "Push-up inclinati",
+              "reps": 8
+            }
+          ],
+          "benchmark": true
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "focus": "Costruzione",
+      "days": [
+        {
+          "day": 57,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 58,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore con elastico",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown con elastico",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 59,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 60,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 45
+            }
+          ]
+        },
+        {
+          "day": 61,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 12
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            },
+            {
+              "name": "Push-up inclinato basso",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 62,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 63,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            },
+            {
+              "name": "KB swing",
+              "reps": 18
+            },
+            {
+              "name": "Push-up inclinato",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "focus": "Volume",
+      "days": [
+        {
+          "day": 64,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 14
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 14
+            }
+          ]
+        },
+        {
+          "day": 65,
+          "focus": "Schiena",
+          "equipment": "Elastico medio",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 66,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 5,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 14
+            }
+          ]
+        },
+        {
+          "day": 67,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Dead bug",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 50
+            }
+          ]
+        },
+        {
+          "day": 68,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 15
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 8
+            },
+            {
+              "name": "Push-up inclinato basso",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 69,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "90/90 hip switch",
+              "reps": 12
+            },
+            {
+              "name": "Cossack squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 70,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB deadlift",
+              "reps": 15
+            },
+            {
+              "name": "KB swing",
+              "reps": 20
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "focus": "Difficoltà",
+      "days": [
+        {
+          "day": 71,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Step-up",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 72,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 73,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 74,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch lento",
+              "reps": 12
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Side plank",
+              "seconds": 30,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 75,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 3
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 10
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 76,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 77,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "focus": "Benchmark 2",
+      "days": [
+        {
+          "day": 78,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 79,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 80,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Curl bicipiti",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 81,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 82,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 5
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 12
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 83,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 15
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 84,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "Push-up",
+              "reps": 5
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 10
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "focus": "Progressione",
+      "days": [
+        {
+          "day": 85,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 15,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 10
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 86,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 87,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 88,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 89,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 6
+            },
+            {
+              "name": "Push-up sulle ginocchia",
+              "reps": 10
+            },
+            {
+              "name": "Push-up negativo lento",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 90,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 15
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 91,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB swing",
+              "reps": 20
+            },
+            {
+              "name": "KB clean",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "focus": "Controllo",
+      "days": [
+        {
+          "day": 92,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 15,
+          "exercises": [
+            {
+              "name": "Front squat",
+              "reps": 8
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 93,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore lento",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 94,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 6,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Arnold press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 95,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Dead bug",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Reverse crunch",
+              "reps": 15
+            },
+            {
+              "name": "Side plank",
+              "seconds": 30,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 96,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 7
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 4
+            }
+          ]
+        },
+        {
+          "day": 97,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 98,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB deadlift",
+              "reps": 15
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "focus": "Volume",
+      "days": [
+        {
+          "day": 99,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 100,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 18
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 101,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 102,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 18
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 103,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 8
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 4
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 104,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "90/90 hip switch",
+              "reps": 15
+            },
+            {
+              "name": "Cossack squat",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 105,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "focus": "Benchmark",
+      "days": [
+        {
+          "day": 106,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 15,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 107,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 18
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 18
+            },
+            {
+              "name": "Face pull",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 108,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 109,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 20
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 110,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 10
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 5
+            },
+            {
+              "name": "Push-up lento",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 111,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 18
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 112,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "Push-up",
+              "reps": 8
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 10
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "focus": "Densità",
+      "days": [
+        {
+          "day": 113,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 15,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Good morning",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 114,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Band pull-apart",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 115,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 15
+            },
+            {
+              "name": "Arnold press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 116,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 8
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 60
+            }
+          ]
+        },
+        {
+          "day": 117,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 10
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 5
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 118,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 119,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "focus": "Unilaterale avanzato",
+      "days": [
+        {
+          "day": 120,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Bulgarian split squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Step-up",
+              "reps": 12,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 121,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore unilaterale",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 122,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Alternating curl",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 123,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Side plank",
+              "seconds": 35,
+              "per_side": true
+            },
+            {
+              "name": "Dead bug",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Leg raise",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 124,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 12
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 4,
+              "per_side": true
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 125,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 126,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "focus": "Tempo",
+      "days": [
+        {
+          "day": 127,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Goblet squat lento",
+              "reps": 10
+            },
+            {
+              "name": "Bulgarian split squat lento",
+              "reps": 7,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift lento",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 128,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore lento",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown lento",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 129,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 7,
+          "exercises": [
+            {
+              "name": "Curl lento",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension lento",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 130,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Slow reverse crunch",
+              "reps": 12
+            },
+            {
+              "name": "Slow mountain climber",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 131,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up lento",
+              "reps": 8
+            },
+            {
+              "name": "Push-up stretto lento",
+              "reps": 4
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 132,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat lento",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 133,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat lento",
+              "reps": 10
+            },
+            {
+              "name": "KB swing",
+              "reps": 20
+            },
+            {
+              "name": "KB clean lento",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "focus": "Forza",
+      "days": [
+        {
+          "day": 134,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 17.5,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 10
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 135,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 136,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 137,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 10
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 138,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 12
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 6
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 139,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 140,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "focus": "Resistenza muscolare",
+      "days": [
+        {
+          "day": 141,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 142,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 20
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 143,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 144,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Reverse crunch",
+              "reps": 20
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 145,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 15
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 6
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 146,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 147,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Push-up",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "focus": "Benchmark 3",
+      "days": [
+        {
+          "day": 148,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 17.5,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 149,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 20
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 18
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 150,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 151,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 12
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 152,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 15
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            },
+            {
+              "name": "Push-up lento",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 153,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 154,
+          "focus": "Finale ciclo",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Push-up",
+              "reps": 12
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 12
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "focus": "Costruzione avanzata",
+      "days": [
+        {
+          "day": 155,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 17.5,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 156,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 18
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 157,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 158,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 12
+            },
+            {
+              "name": "Mountain climber",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 75
+            }
+          ]
+        },
+        {
+          "day": 159,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 15
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 160,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 161,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "focus": "Controllo avanzato",
+      "days": [
+        {
+          "day": 162,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat lento",
+              "reps": 12
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift lento",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 163,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore lento",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown lento",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 164,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Arnold press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 165,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Slow leg raise",
+              "reps": 10
+            },
+            {
+              "name": "Dead bug",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Side plank",
+              "seconds": 40,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 166,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up lento",
+              "reps": 12
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 6
+            },
+            {
+              "name": "Push-up negativo",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 167,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat lento",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 168,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Goblet squat lento",
+              "reps": 12
+            },
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "KB clean",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "focus": "Unilaterale",
+      "days": [
+        {
+          "day": 169,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Bulgarian split squat",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Step-up",
+              "reps": 12,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 170,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore unilaterale",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 171,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Alternating curl",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 172,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Side plank",
+              "seconds": 45,
+              "per_side": true
+            },
+            {
+              "name": "Dead bug",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Leg raise",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 173,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 15
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 174,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 175,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "focus": "Benchmark 4",
+      "days": [
+        {
+          "day": 176,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 20,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 177,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 20
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 20
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 178,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 15
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 179,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 15
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 180,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up completo",
+              "reps": 20
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 181,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 182,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Push-up",
+              "reps": 12
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 12
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "focus": "Potenza",
+      "days": [
+        {
+          "day": 183,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Jump squat",
+              "reps": 8
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Step-up esplosivo",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 184,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore esplosivo controllato",
+              "reps": 12
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 185,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "Push press",
+              "reps": 10
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 186,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Mountain climber",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Leg raise",
+              "reps": 12
+            },
+            {
+              "name": "Plank shoulder tap",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 187,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 15
+            },
+            {
+              "name": "Explosive incline push-up",
+              "reps": 8
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 188,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Hip opener",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 189,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "focus": "Forza tecnica",
+      "days": [
+        {
+          "day": 190,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 20,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 10
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 191,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 12
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 192,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 193,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow body hold",
+              "seconds": 25
+            },
+            {
+              "name": "Leg raise",
+              "reps": 10
+            },
+            {
+              "name": "Side plank",
+              "seconds": 40,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 194,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 15
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "day": 195,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 196,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 30
+            },
+            {
+              "name": "Push-up",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "focus": "Volume avanzato",
+      "days": [
+        {
+          "day": 197,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 198,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 20
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 18
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 199,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Arnold press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 200,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow body hold",
+              "seconds": 30
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 20,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 90
+            }
+          ]
+        },
+        {
+          "day": 201,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 18
+            },
+            {
+              "name": "Push-up stretto",
+              "reps": 8
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "day": 202,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 203,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 35
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            },
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "focus": "Controllo avanzato",
+      "days": [
+        {
+          "day": 204,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 20,
+          "exercises": [
+            {
+              "name": "Tempo squat 3-1-1",
+              "reps": 8
+            },
+            {
+              "name": "Romanian deadlift lento",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge lento",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 205,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore lento",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown lento",
+              "reps": 12
+            },
+            {
+              "name": "Face pull",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 206,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Curl lento",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press lento",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension lento",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 207,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow hold",
+              "seconds": 30
+            },
+            {
+              "name": "Slow leg raise",
+              "reps": 10
+            },
+            {
+              "name": "Side plank",
+              "seconds": 45,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 208,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up lento",
+              "reps": 12
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Push-up stretto lento",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 209,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat lento",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 20
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 210,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 25
+            },
+            {
+              "name": "KB clean lento",
+              "reps": 8,
+              "per_side": true
+            },
+            {
+              "name": "Goblet squat lento",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "focus": "Skill",
+      "days": [
+        {
+          "day": 211,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Pistol squat assistito",
+              "reps": 5,
+              "per_side": true
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "reps": 15,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 212,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore unilaterale",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 213,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Alternating curl",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Arnold press",
+              "reps": 10
+            },
+            {
+              "name": "Hammer curl",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 214,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow body hold",
+              "seconds": 35
+            },
+            {
+              "name": "Leg raise",
+              "reps": 12
+            },
+            {
+              "name": "Plank shoulder tap",
+              "reps": 12,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 215,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 15
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 6,
+              "per_side": true
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "day": 216,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 25
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 217,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "KB swing",
+              "reps": 35
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "focus": "Benchmark 5",
+      "days": [
+        {
+          "day": 218,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 20,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 15
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 15
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 219,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 20
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 20
+            },
+            {
+              "name": "Face pull",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "day": 220,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 15
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 15
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 221,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow hold",
+              "seconds": 40
+            },
+            {
+              "name": "Leg raise",
+              "reps": 15
+            },
+            {
+              "name": "Plank",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 222,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 20
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 6
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 5,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 223,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 224,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 40
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 20
+            },
+            {
+              "name": "Push-up",
+              "reps": 15
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 12
+        }
+      ]
+    },
+    {
+      "week": 33,
+      "focus": "Potenza e coordinazione",
+      "days": [
+        {
+          "day": 225,
+          "focus": "Gambe",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Jump squat",
+              "reps": 10
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Step-up esplosivo",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 226,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore esplosivo controllato",
+              "reps": 15
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 18
+            },
+            {
+              "name": "Face pull",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 227,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 9,
+          "exercises": [
+            {
+              "name": "Push press",
+              "reps": 12
+            },
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 228,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Mountain climber",
+              "reps": 25,
+              "per_side": true
+            },
+            {
+              "name": "Hollow hold",
+              "seconds": 35
+            },
+            {
+              "name": "Plank shoulder tap",
+              "reps": 15,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 229,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 18
+            },
+            {
+              "name": "Explosive incline push-up",
+              "reps": 10
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "day": 230,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 15,
+              "per_side": true
+            },
+            {
+              "name": "Hip opener",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 231,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 40
+            },
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 34,
+      "focus": "Forza",
+      "days": [
+        {
+          "day": 232,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 22.5,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 10
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 10
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 233,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 18
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 15
+            },
+            {
+              "name": "Straight-arm pulldown",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 234,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 10,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 10
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 10
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "day": 235,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow hold",
+              "seconds": 40
+            },
+            {
+              "name": "Leg raise",
+              "reps": 12
+            },
+            {
+              "name": "Side plank",
+              "seconds": 50,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 236,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 20
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 8
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 237,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 18,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 25
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 238,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 40
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 20
+            },
+            {
+              "name": "Push-up",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 35,
+      "focus": "Resistenza avanzata",
+      "days": [
+        {
+          "day": 239,
+          "focus": "Gambe",
+          "equipment": "Manubri",
+          "weight_kg": 10,
+          "exercises": [
+            {
+              "name": "Goblet squat",
+              "reps": 18
+            },
+            {
+              "name": "Reverse lunge",
+              "reps": 10,
+              "per_side": true
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 18
+            }
+          ]
+        },
+        {
+          "day": 240,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 25
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 20
+            },
+            {
+              "name": "Face pull",
+              "reps": 25
+            }
+          ]
+        },
+        {
+          "day": 241,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 10,
+          "exercises": [
+            {
+              "name": "Hammer curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 242,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Leg raise",
+              "reps": 15
+            },
+            {
+              "name": "Bicycle crunch",
+              "reps": 25,
+              "per_side": true
+            },
+            {
+              "name": "Plank",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 243,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 22
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 8
+            },
+            {
+              "name": "Push-up largo",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 244,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 18,
+              "per_side": true
+            },
+            {
+              "name": "World's greatest stretch",
+              "reps": 12,
+              "per_side": true
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 150
+            }
+          ]
+        },
+        {
+          "day": 245,
+          "focus": "Full body",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 45
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 20
+            },
+            {
+              "name": "KB clean",
+              "reps": 10,
+              "per_side": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 36,
+      "focus": "Benchmark 6",
+      "days": [
+        {
+          "day": 246,
+          "focus": "Gambe",
+          "equipment": "Bilanciere",
+          "weight_kg": 22.5,
+          "exercises": [
+            {
+              "name": "Back squat",
+              "reps": 12
+            },
+            {
+              "name": "Romanian deadlift",
+              "reps": 12
+            },
+            {
+              "name": "Bulgarian split squat",
+              "reps": 8,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 247,
+          "focus": "Schiena",
+          "equipment": "Elastico forte",
+          "exercises": [
+            {
+              "name": "Rematore",
+              "reps": 25
+            },
+            {
+              "name": "Lat pulldown",
+              "reps": 20
+            },
+            {
+              "name": "Face pull",
+              "reps": 25
+            }
+          ]
+        },
+        {
+          "day": 248,
+          "focus": "Braccia e spalle",
+          "equipment": "Manubri",
+          "weight_kg": 10,
+          "exercises": [
+            {
+              "name": "Curl",
+              "reps": 12
+            },
+            {
+              "name": "Shoulder press",
+              "reps": 12
+            },
+            {
+              "name": "Triceps extension",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "day": 249,
+          "focus": "Core",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Hollow hold",
+              "seconds": 45
+            },
+            {
+              "name": "Leg raise",
+              "reps": 15
+            },
+            {
+              "name": "Plank",
+              "seconds": 120
+            }
+          ]
+        },
+        {
+          "day": 250,
+          "focus": "Petto",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Push-up",
+              "reps": 25
+            },
+            {
+              "name": "Diamond push-up assistito",
+              "reps": 8
+            },
+            {
+              "name": "Archer push-up assistito",
+              "reps": 6,
+              "per_side": true
+            }
+          ]
+        },
+        {
+          "day": 251,
+          "focus": "Mobilità e flessibilità",
+          "equipment": "Corpo libero",
+          "exercises": [
+            {
+              "name": "Cossack squat",
+              "reps": 18,
+              "per_side": true
+            },
+            {
+              "name": "90/90 hip switch",
+              "reps": 25
+            },
+            {
+              "name": "Deep squat hold",
+              "seconds": 150
+            }
+          ]
+        },
+        {
+          "day": 252,
+          "focus": "Full body benchmark",
+          "equipment": "Kettlebell",
+          "weight_kg": 8,
+          "exercises": [
+            {
+              "name": "KB swing",
+              "reps": 45
+            },
+            {
+              "name": "Goblet squat",
+              "reps": 20
+            },
+            {
+              "name": "Push-up",
+              "reps": 20
+            }
+          ],
+          "benchmark": true,
+          "duration_minutes": 15
+        }
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": 253,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 12,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 10
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 254,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 10,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 10
+        },
+        {
+          "name": "Curl martello",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 255,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 10
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 20
+        },
+        {
+          "name": "Plank",
+          "seconds": 30
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 256,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 30
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 10
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 257,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 6
+        },
+        {
+          "name": "Squat",
+          "reps": 12
+        },
+        {
+          "name": "Push-up",
+          "reps": 8
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 258,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 9
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 6
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 259,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 11,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 13
+        },
+        {
+          "name": "Superman",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 260,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 13,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 11
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 261,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 11,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 11
+        },
+        {
+          "name": "Curl martello",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 262,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 11
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 24
+        },
+        {
+          "name": "Plank",
+          "seconds": 35
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 263,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 35
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 12
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 264,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 7
+        },
+        {
+          "name": "Squat",
+          "reps": 14
+        },
+        {
+          "name": "Push-up",
+          "reps": 9
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 265,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 10
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 7
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 266,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 12,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 14
+        },
+        {
+          "name": "Superman",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 267,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 14,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 12
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 11
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 268,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 12,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 12
+        },
+        {
+          "name": "Curl martello",
+          "reps": 11
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 269,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 12
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 26
+        },
+        {
+          "name": "Plank",
+          "seconds": 40
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "circuito"
+    },
+    {
+      "day": 270,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 40
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 14
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 271,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 8
+        },
+        {
+          "name": "Squat",
+          "reps": 16
+        },
+        {
+          "name": "Push-up",
+          "reps": 10
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 272,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 11
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 8
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 273,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 13,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 15
+        },
+        {
+          "name": "Superman",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 274,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 15,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 13
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 275,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 13,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 13
+        },
+        {
+          "name": "Curl martello",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 276,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 13
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 28
+        },
+        {
+          "name": "Plank",
+          "seconds": 45
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 277,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 45
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 15
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 278,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 9
+        },
+        {
+          "name": "Squat",
+          "reps": 18
+        },
+        {
+          "name": "Push-up",
+          "reps": 11
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 279,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 12
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 8
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 280,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 14,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 16
+        },
+        {
+          "name": "Superman",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 281,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 16,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 14
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 13
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 282,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 14,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 14
+        },
+        {
+          "name": "Curl martello",
+          "reps": 13
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 283,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 14
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 30
+        },
+        {
+          "name": "Plank",
+          "seconds": 50
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 284,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 50
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 16
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 285,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        },
+        {
+          "name": "Push-up",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 286,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 13
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 9
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 17
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 287,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 15,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 17
+        },
+        {
+          "name": "Superman",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 288,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 17,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 15
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 289,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 15,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 15
+        },
+        {
+          "name": "Curl martello",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 290,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 15
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 32
+        },
+        {
+          "name": "Plank",
+          "seconds": 55
+        }
+      ],
+      "duration_minutes": 9,
+      "type": "circuito"
+    },
+    {
+      "day": 291,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 55
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 18
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 292,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        },
+        {
+          "name": "Push-up",
+          "reps": 13
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 293,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 14
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 10
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 294,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 16,
+          "weight_kg": 15
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 18
+        },
+        {
+          "name": "Superman",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 295,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 18,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 16
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 296,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 16,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 16
+        },
+        {
+          "name": "Curl martello",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 297,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 16
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 34
+        },
+        {
+          "name": "Plank",
+          "seconds": 60
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 298,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo in tenuta",
+          "seconds": 60
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 20
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 299,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        },
+        {
+          "name": "Push-up",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "circuito"
+    },
+    {
+      "day": 300,
+      "focus": "TEST",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 10
+        },
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 15,
+          "weight_kg": 10
+        },
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 10,
+          "weight_kg": 15
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP",
+      "note": "Completare più giri possibili in 12 minuti."
+    },
+    {
+      "day": 301,
+      "focus": "Recupero",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Cat-cow",
+          "reps": 15
+        },
+        {
+          "name": "Squat profondo",
+          "seconds": 45
+        },
+        {
+          "name": "Stretching gambe",
+          "seconds": 45
+        }
+      ],
+      "duration_minutes": 8,
+      "type": "mobilita"
+    },
+    {
+      "day": 302,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 12
+        },
+        {
+          "name": "Push-up inclinati su panca",
+          "reps": 12
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 303,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 12,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 18
+        },
+        {
+          "name": "Superman",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 304,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 15,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 15
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 305,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 14,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 16
+        },
+        {
+          "name": "Curl martello",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 306,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 15
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 36
+        },
+        {
+          "name": "Plank",
+          "seconds": 60
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 307,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 8
+        },
+        {
+          "name": "Push-up",
+          "reps": 10
+        },
+        {
+          "name": "Squat",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP",
+      "note": "Completare più giri possibili in 12 minuti."
+    },
+    {
+      "day": 308,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 13
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 10
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 309,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 13,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 20
+        },
+        {
+          "name": "Superman",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 310,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 16,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 16
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 311,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 15,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 18
+        },
+        {
+          "name": "Curl martello",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 312,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 16
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 40
+        },
+        {
+          "name": "Plank",
+          "seconds": 65
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 313,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 60
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 20
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 314,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 9
+        },
+        {
+          "name": "Push-up",
+          "reps": 10
+        },
+        {
+          "name": "Squat",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 315,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 14
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 10
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 316,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 14,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 20
+        },
+        {
+          "name": "Superman",
+          "reps": 22
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 317,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 17,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 17
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 17
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 318,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 16,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 20
+        },
+        {
+          "name": "Curl martello",
+          "reps": 16
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 319,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 17
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 42
+        },
+        {
+          "name": "Plank",
+          "seconds": 70
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 320,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 65
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 22
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 22
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 321,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Push-up",
+          "reps": 12
+        },
+        {
+          "name": "Squat",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 322,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 15
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 11
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 22
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 323,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 15,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 22
+        },
+        {
+          "name": "Superman",
+          "reps": 24
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 324,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 18,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 18
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 325,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 17,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 22
+        },
+        {
+          "name": "Curl martello",
+          "reps": 17
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 326,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 18
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 44
+        },
+        {
+          "name": "Plank",
+          "seconds": 75
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 327,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 70
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 24
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 24
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 328,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Push-up",
+          "reps": 12
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 329,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 16
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 12
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 24
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 330,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 16,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 24
+        },
+        {
+          "name": "Superman",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 331,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 20,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 20
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 332,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 18,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 24
+        },
+        {
+          "name": "Curl martello",
+          "reps": 18
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 333,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 20
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 46
+        },
+        {
+          "name": "Plank",
+          "seconds": 80
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 334,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 75
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 25
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 335,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 11
+        },
+        {
+          "name": "Push-up",
+          "reps": 13
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 336,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 17
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 12
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 337,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 17,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 25
+        },
+        {
+          "name": "Superman",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 338,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 20,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 20
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 339,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 20,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 25
+        },
+        {
+          "name": "Curl martello",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 340,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 20
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 50
+        },
+        {
+          "name": "Plank",
+          "seconds": 90
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 341,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 90
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 25
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 10,
+      "type": "circuito"
+    },
+    {
+      "day": 342,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 12
+        },
+        {
+          "name": "Push-up",
+          "reps": 14
+        },
+        {
+          "name": "Squat",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 343,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 10
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 8
+        },
+        {
+          "name": "Push-up su panca",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 344,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 12,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 15
+        },
+        {
+          "name": "Superman",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 345,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 15,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 12
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 346,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 12,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 15
+        },
+        {
+          "name": "Curl martello",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 347,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 12
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 30
+        },
+        {
+          "name": "Plank",
+          "seconds": 60
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 348,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 60
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 20
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "circuito"
+    },
+    {
+      "day": 349,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 8
+        },
+        {
+          "name": "Push-up",
+          "reps": 10
+        },
+        {
+          "name": "Goblet squat",
+          "reps": 12,
+          "weight_kg": 10
+        }
+      ],
+      "duration_minutes": 15,
+      "type": "AMRAP",
+      "note": "Primo allenamento oltre gli 8 minuti."
+    },
+    {
+      "day": 350,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 12
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 10
+        },
+        {
+          "name": "Chest press con elastico",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 351,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 14,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 18
+        },
+        {
+          "name": "Superman",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 352,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 16,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 14
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 353,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 14,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 18
+        },
+        {
+          "name": "Curl martello",
+          "reps": 14
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 354,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 15
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 40
+        },
+        {
+          "name": "Plank",
+          "seconds": 75
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 355,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 75
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 25
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "circuito"
+    },
+    {
+      "day": 356,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Push-up",
+          "reps": 12
+        },
+        {
+          "name": "Goblet squat",
+          "reps": 15,
+          "weight_kg": 10
+        }
+      ],
+      "duration_minutes": 15,
+      "type": "AMRAP"
+    },
+    {
+      "day": 357,
+      "focus": "Petto",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 14
+        },
+        {
+          "name": "Push-up stretti",
+          "reps": 10
+        },
+        {
+          "name": "Push-up inclinati su panca",
+          "reps": 12
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 358,
+      "focus": "Schiena",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 15,
+          "weight_kg": 17.5
+        },
+        {
+          "name": "Lat pull-down con elastico",
+          "reps": 20
+        },
+        {
+          "name": "Superman",
+          "reps": 20
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 359,
+      "focus": "Gambe",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Goblet squat con manubrio",
+          "reps": 18,
+          "weight_kg": 10
+        },
+        {
+          "name": "Step-up su panca",
+          "reps": 15
+        },
+        {
+          "name": "Affondi indietro",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 360,
+      "focus": "Braccia",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Curl con manubri",
+          "reps": 15,
+          "weight_kg": 8
+        },
+        {
+          "name": "Dip su panca",
+          "reps": 20
+        },
+        {
+          "name": "Curl martello",
+          "reps": 15
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 361,
+      "focus": "Addome",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Leg raise su panca",
+          "reps": 18
+        },
+        {
+          "name": "Mountain climber",
+          "reps": 45
+        },
+        {
+          "name": "Plank",
+          "seconds": 90
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "AMRAP"
+    },
+    {
+      "day": 362,
+      "focus": "Mobilità",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Squat profondo",
+          "seconds": 90
+        },
+        {
+          "name": "Cat-cow",
+          "reps": 25
+        },
+        {
+          "name": "Rotazioni toraciche",
+          "reps": 25
+        }
+      ],
+      "duration_minutes": 12,
+      "type": "circuito"
+    },
+    {
+      "day": 363,
+      "focus": "Full body",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Push-up",
+          "reps": 15
+        },
+        {
+          "name": "Goblet squat",
+          "reps": 18,
+          "weight_kg": 10
+        }
+      ],
+      "duration_minutes": 15,
+      "type": "AMRAP"
+    },
+    {
+      "day": 364,
+      "focus": "TEST FINALE",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Push-up completi",
+          "reps": 10
+        },
+        {
+          "name": "Goblet squat",
+          "reps": 15,
+          "weight_kg": 10
+        },
+        {
+          "name": "Rematore con bilanciere",
+          "reps": 10,
+          "weight_kg": 17.5
+        }
+      ],
+      "duration_minutes": 20,
+      "type": "AMRAP",
+      "note": "20 minuti. Registrare il numero totale di giri e confrontarlo con il test del giorno 300."
+    },
+    {
+      "day": 365,
+      "focus": "FINAL BOSS",
+      "equipment": "Non specificato",
+      "exercises": [
+        {
+          "name": "Burpee",
+          "reps": 10
+        },
+        {
+          "name": "Push-up completi",
+          "reps": 15
+        },
+        {
+          "name": "Goblet squat",
+          "reps": 20,
+          "weight_kg": 10
+        }
+      ],
+      "duration_minutes": 20,
+      "type": "AMRAP",
+      "note": "Allenamento finale. 20 minuti. Obiettivo: completare più giri possibili mantenendo una tecnica pulita.",
+      "prize": "365 GIORNI COMPLETATI"
+    }
+  ]
+}
