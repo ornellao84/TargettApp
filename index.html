@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TargettApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <header>
+            <h1>TargettApp</h1>
+        </header>
+
+<main id="content">
+
+    <section id="home-section">
+        <h2>I miei target</h2>
+
+        <div id="targets-container">
+            <!-- I target appariranno qui -->
+        </div>
+    </section>
+
+    <section id="calendar-section" style="display: none;">
+
+        <div class="calendar">
+
+            <div class="calendar-header">
+                <button class="calendar-nav" onclick="previousMonth()">‹</button>
+
+                <div id="calendar-title" class="calendar-title">
+                    Agosto 2026
+                </div>
+
+                <button class="calendar-nav" onclick="nextMonth()">›</button>
+            </div>
+
+            <div class="calendar-weekdays">
+                <div class="calendar-weekday">LUN</div>
+                <div class="calendar-weekday">MAR</div>
+                <div class="calendar-weekday">MER</div>
+                <div class="calendar-weekday">GIO</div>
+                <div class="calendar-weekday">VEN</div>
+                <div class="calendar-weekday">SAB</div>
+                <div class="calendar-weekday">DOM</div>
+            </div>
+
+            <div id="calendar-days" class="calendar-days">
+                <!-- Giorni generati da JavaScript -->
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+        <nav>
+
+    <button onclick="showHome()" aria-label="Target">
+
+        <svg
+            class="nav-gauge"
+            viewBox="0 0 40 40"
+        >
+            <path
+                d="M 7 28
+                   A 14 14 0 1 1 33 28"
+            />
+        </svg>
+
+    </button>
+
+
+    <button onclick="showAddTarget()" aria-label="Nuovo target">
+        +
+    </button>
+
+
+    <nav>
+
+    <button onclick="showHome()" aria-label="Target">
+
+        <svg
+            class="nav-gauge"
+            viewBox="0 0 40 40"
+        >
+            <path
+                d="M 7 28
+                   A 14 14 0 1 1 33 28"
+            />
+        </svg>
+
+    </button>
+
+
+    <button onclick="showAddTarget()" aria-label="Nuovo target">
+        +
+    </button>
+
+
+    <button onclick="showWorkout()" aria-label="Allenamento">
+
+        <span class="nav-workout">●</span>
+
+    </button>
+
+
+    <button onclick="showCalendar()" aria-label="Calendario">
+
+        <span class="nav-square"></span>
+
+    </button>
+
+</nav>
+
+
+</nav>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
