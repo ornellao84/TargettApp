@@ -2783,6 +2783,10 @@ function startWorkout() {
 // TERMINA ALLENAMENTO
 // =========================================================
 
+// =========================================================
+// TERMINA ALLENAMENTO
+// =========================================================
+
 function finishWorkout() {
 
     if (
@@ -2802,7 +2806,6 @@ function finishWorkout() {
     const day =
         getDayOfYear();
 
-
     const workout =
         getWorkoutForToday();
 
@@ -2813,12 +2816,13 @@ function finishWorkout() {
 
 
     // =====================================================
-    // CHIEDI CIRCUITI COMPLETI
+    // CHIEDI CIRCUITI COMPLETI O CARDIO
     // =====================================================
 
     const circuits =
         prompt(
-            "Quanti circuiti completi hai fatto?"
+            "Quanti circuiti completi hai fatto?\n\n" +
+            "Puoi anche scrivere CARDIO se hai fatto cardio al posto dell'allenamento."
         );
 
 
@@ -2834,24 +2838,47 @@ function finishWorkout() {
     }
 
 
-    const completedCircuits =
-        Number(
-            circuits
-        );
+    // =====================================================
+    // GESTIONE CARDIO
+    // =====================================================
+
+    const cardio =
+        circuits
+            .trim()
+            .toLowerCase() === "cardio";
 
 
-    if (
-        !Number.isInteger(
-            completedCircuits
-        ) ||
-        completedCircuits < 0
-    ) {
+    let completedCircuits;
+    let automaticNote;
 
-        alert(
-            "Inserisci un numero valido di circuiti."
-        );
 
-        return;
+    if (cardio) {
+
+        completedCircuits =
+            "cardio";
+
+    } else {
+
+        completedCircuits =
+            Number(
+                circuits
+            );
+
+
+        if (
+            !Number.isInteger(
+                completedCircuits
+            ) ||
+            completedCircuits < 0
+        ) {
+
+            alert(
+                "Inserisci un numero valido di circuiti oppure CARDIO."
+            );
+
+            return;
+
+        }
 
     }
 
@@ -2862,7 +2889,6 @@ function finishWorkout() {
 
     const now =
         new Date();
-
 
     const dateKey =
         now.getFullYear() +
@@ -2899,15 +2925,27 @@ function finishWorkout() {
             .join(", ");
 
 
-    const automaticNote =
-        "Allenamento Giorno " +
-        day +
-        "/365 · " +
-        workout.focus +
-        " · " +
-        completedCircuits +
-        " circuiti completi · " +
-        exerciseList;
+    if (cardio) {
+
+        automaticNote =
+            "Allenamento Giorno " +
+            day +
+            "/365 · CARDIO al posto dell'allenamento · " +
+            workout.focus;
+
+    } else {
+
+        automaticNote =
+            "Allenamento Giorno " +
+            day +
+            "/365 · " +
+            workout.focus +
+            " · " +
+            completedCircuits +
+            " circuiti completi · " +
+            exerciseList;
+
+    }
 
 
     // =====================================================
@@ -2928,6 +2966,7 @@ function finishWorkout() {
         exercises:
             workout.exercises.map(
                 exercise => ({
+
                     name:
                         exercise.name,
 
@@ -2935,6 +2974,7 @@ function finishWorkout() {
                         getExercisePrescription(
                             exercise
                         )
+
                 })
             ),
 
@@ -2996,6 +3036,7 @@ function finishWorkout() {
         exercises:
             workout.exercises.map(
                 exercise => ({
+
                     name:
                         exercise.name,
 
@@ -3003,6 +3044,7 @@ function finishWorkout() {
                         getExercisePrescription(
                             exercise
                         )
+
                 })
             )
 
@@ -3033,12 +3075,6 @@ function finishWorkout() {
     showWorkout();
 
 }
-
-
-// =========================================================
-// AVVIO APP
-// =========================================================
-
 async function startWorkoutApp() {
 
     await loadWorkout365();
