@@ -40,9 +40,9 @@ jobs:
 
       - name: Prepare signing key
         env:
-          TARGETTAPP_KEYSTORE_BASE64: ${{ secrets.TARGETTAPP_KEYSTORE_BASE64 }}
+          TARGETTAPP_KEYSTORE_HEX: ${{ secrets.TARGETTAPP_KEYSTORE_HEX }}
         run: |
-          printf '%s' "$TARGETTAPP_KEYSTORE_BASE64" | tr -d '\r\n\t ' | base64 -d -i > targettapp-release.keystore
+          printf '%s' "$TARGETTAPP_KEYSTORE_HEX" | xxd -r -p > targettapp-release.keystore
 
       - name: Build signed APK
         env:
@@ -57,3 +57,4 @@ jobs:
         with:
           name: TargettApp-APK
           path: android/app/build/outputs/apk/release/app-release.apk
+
