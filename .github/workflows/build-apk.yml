@@ -45,13 +45,15 @@ jobs:
           printf '%s' "$TARGETTAPP_KEYSTORE_HEX" | xxd -r -p > targettapp-release.keystore
 
       - name: Build signed APK
+        continue-on-error: true
         env:
           TARGETTAPP_KEYSTORE_PASSWORD: ${{ secrets.TARGETTAPP_KEYSTORE_PASSWORD }}
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleRelease --stacktrace --info --console=plain
-          find . -type f -print | grep -E "apk|aab"
+          ./gradlew assembleRelease --stacktrace --info --console=plain > build.log 2>&1
+          echo "===== ERRORI IMPORTANTI ====="
+          grep -iE "error:|FAILURE:|Execution failed|AAPT|Caused by:" build.log | tail -100 || true
 
 
       - name: Find APK
