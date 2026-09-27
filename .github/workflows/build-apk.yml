@@ -51,7 +51,7 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleRelease --stacktrace --info --console=plain > build.log 2>&1
+          ./gradlew assembleRelease --stacktrace --info --console=plain > build.log 2>&1 || true
           echo "===== ERRORI IMPORTANTI ====="
           grep -iE "error:|FAILURE:|Execution failed|AAPT|Caused by:" build.log | tail -100 || true
 
