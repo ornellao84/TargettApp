@@ -50,7 +50,7 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleRelease --stacktrace --info
+          ./gradlew assembleRelease --stacktrace --info 2>&1 | tee build.logo
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
