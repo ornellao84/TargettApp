@@ -1,4 +1,4 @@
-﻿package com.targettapp.app25;
+package com.targettapp.app25;
 
 import com.getcapacitor.BridgeActivity;
 
