@@ -320,6 +320,36 @@ function createTargetCard(
 
     }
 
+// =========================================================
+// GIORNI RIMANENTI DEL TARGET
+// =========================================================
+
+let daysRemaining = 0;
+
+if (!completed && target.days) {
+
+    const createdAt =
+        new Date(target.createdAt);
+
+    const today =
+        new Date();
+
+    createdAt.setHours(0, 0, 0, 0);
+    today.setHours(0, 0, 0, 0);
+
+    const elapsedDays =
+        Math.floor(
+            (today - createdAt) /
+            (1000 * 60 * 60 * 24)
+        );
+
+    daysRemaining =
+        Math.max(
+            target.days - elapsedDays,
+            0
+        );
+
+}
 
     targetElement.innerHTML = `
 
@@ -377,6 +407,18 @@ function createTargetCard(
         <div class="target-name">
             ${target.name}
         </div>
+
+${
+    completed
+    ?
+    ""
+    :
+    `
+        <div class="target-days-remaining">
+            ${daysRemaining} giorni rimanenti
+        </div>
+    `
+}
 
 
         ${
@@ -1533,6 +1575,28 @@ function renderCalendar() {
         const today =
             new Date();
 
+        today.setHours(
+            0,
+            0,
+            0,
+            0
+        );
+
+
+        const currentDate =
+            new Date(
+                year,
+                month,
+                day
+            );
+
+        currentDate.setHours(
+            0,
+            0,
+            0,
+            0
+        );
+
 
         if (
             day === today.getDate() &&
@@ -1596,31 +1660,41 @@ function renderCalendar() {
         // ALLENAMENTO
         // ==========================
 
-        const workoutDate =
-            getWorkoutCompletionForDate(
-                dateKey
-            );
+        // Il puntino dell'allenamento
+        // compare SOLO se l'allenamento
+        // è stato effettivamente completato.
 
+        if (
+            currentDate <= today
+        ) {
 
-        if (workoutDate) {
-
-            const workoutDot =
-                document.createElement(
-                    "div"
+            const workoutDate =
+                getWorkoutCompletionForDate(
+                    dateKey
                 );
 
 
-            workoutDot.className =
-                "calendar-dot workout-calendar-dot";
+            if (workoutDate) {
+
+                const workoutDot =
+                    document.createElement(
+                        "div"
+                    );
 
 
-            workoutDot.style.backgroundColor =
-                "#6c9d6c";
+                workoutDot.className =
+                    "calendar-dot workout-calendar-dot";
 
 
-            dotsContainer.appendChild(
-                workoutDot
-            );
+                workoutDot.style.backgroundColor =
+                    "#6c9d6c";
+
+
+                dotsContainer.appendChild(
+                    workoutDot
+                );
+
+            }
 
         }
 
@@ -1649,7 +1723,6 @@ function renderCalendar() {
     }
 
 }
-
 
 // =========================================================
 // TROVA ALLENAMENTO COMPLETATO PER DATA
@@ -1713,14 +1786,10 @@ function openDayModal(dateKey) {
         );
 
 
-    if (
-        activities.length === 0 &&
-        !workout
-    ) {
-
-        return;
-
-    }
+    const plannedWorkout =
+        getWorkoutForDate(
+            dateKey
+        );
 
 
     const parts =
@@ -1733,6 +1802,28 @@ function openDayModal(dateKey) {
             Number(parts[1]) - 1,
             Number(parts[2])
         );
+
+
+    const today =
+        new Date();
+
+    today.setHours(0, 0, 0, 0);
+    date.setHours(0, 0, 0, 0);
+
+
+    const isFuture =
+        date > today;
+
+
+    if (
+        activities.length === 0 &&
+        !workout &&
+        !(isFuture && plannedWorkout)
+    ) {
+
+        return;
+
+    }
 
 
     const dateText =
@@ -1774,91 +1865,123 @@ function openDayModal(dateKey) {
 
 
             ${
-                workout
-                ?
-                `
+    workout || (isFuture && plannedWorkout)
+    ?
+    `
 
-                    <div class="day-workout">
+        <div class="day-workout">
 
-                        <div
-                            class="day-workout-color"
-                            style="
-                                background: #6c9d6c;
-                            "
-                        ></div>
-
-
-                        <div
-                            class="day-workout-content"
-                        >
-
-                            <h3>
-                                ðŸ‹ï¸ Allenamento
-                            </h3>
+            <div
+                class="day-workout-color"
+                style="
+                    background: #6c9d6c;
+                "
+            ></div>
 
 
-                            <div class="day-workout-day">
-                                Giorno ${workout.day} / 365
-                            </div>
+            <div
+                class="day-workout-content"
+            >
+
+                <h3>
+                    🏋️ ${workout ? "Allenamento" : "Allenamento previsto"}
+                </h3>
 
 
-                            <div class="day-workout-focus">
-                                ${workout.focus}
-                            </div>
+                <div class="day-workout-day">
+                    Giorno ${
+                        workout
+                        ? workout.day
+                        : plannedWorkout.day
+                    } / 365
+                </div>
 
 
-                            <div class="day-workout-circuits">
-                                ðŸ”„ ${workout.circuits}
-                                ${
-                                    workout.circuits === 1
-                                    ? "circuito completo"
-                                    : "circuiti completi"
-                                }
-                            </div>
+                <div class="day-workout-focus">
+                    ${
+                        workout
+                        ? workout.focus
+                        : plannedWorkout.focus
+                    }
+                </div>
 
 
+                ${
+                    workout
+                    ?
+                    `
+                        <div class="day-workout-circuits">
+                            🔄 ${workout.circuits}
                             ${
-                                workout.exercises &&
-                                workout.exercises.length > 0
-                                ?
-                                `
-                                    <div class="day-workout-exercises">
-
-                                        <strong>
-                                            Esercizi
-                                        </strong>
-
-                                        <ul>
-
-                                            ${
-                                                workout.exercises
-                                                    .map(
-                                                        exercise =>
-                                                            `
-                                                                <li>
-                                                                    ${exercise}
-                                                                </li>
-                                                            `
-                                                    )
-                                                    .join("")
-                                            }
-
-                                        </ul>
-
-                                    </div>
-                                `
-                                :
-                                ""
+                                workout.circuits === 1
+                                ? "circuito completo"
+                                : "circuiti completi"
                             }
+                        </div>
+                    `
+                    :
+                    ""
+                }
+
+
+                ${
+                    (
+                        workout
+                        ? workout.exercises
+                        : plannedWorkout.exercises
+                    ) &&
+                    (
+                        workout
+                        ? workout.exercises
+                        : plannedWorkout.exercises
+                    ).length > 0
+                    ?
+                    `
+                        <div class="day-workout-exercises">
+
+                            <strong>
+                                Esercizi
+                            </strong>
+
+                            <ul>
+
+                                ${(
+    workout
+    ? workout.exercises
+    : plannedWorkout.exercises
+)
+.map(
+    exercise =>
+        `
+            <li>
+                ${exercise.name}
+                ${
+                    getExercisePrescription(exercise)
+                    ? " — " + getExercisePrescription(exercise)
+                    : ""
+                }
+            </li>
+        `
+)
+.join("")
+}
+
+                            </ul>
 
                         </div>
+                    `
+                    :
+                    ""
+                }
 
-                    </div>
+            </div>
 
-                `
-                :
-                ""
-            }
+        </div>
+
+    `
+    :
+    ""
+}
 
 
             ${
@@ -2092,8 +2215,9 @@ function startWorkoutProgram() {
 
 }
 
+
 // =========================================================
-// GIORNO DELL'ANNO
+// GIORNO DEL PROGRAMMA
 // =========================================================
 
 function getDayOfYear() {
@@ -2101,13 +2225,37 @@ function getDayOfYear() {
     const startDate =
         localStorage.getItem("workoutStartDate");
 
-    // Nuova installazione: oggi è il giorno 25
+    // Nuova installazione:
+    // il primo giorno della nuova app è il Giorno 27.
     if (!startDate) {
-        return 25;
-    }
 
-    const start =
-        new Date(startDate);
+    const today =
+        new Date();
+
+    const dateKey =
+        today.getFullYear() +
+        "-" +
+        String(today.getMonth() + 1).padStart(2, "0") +
+        "-" +
+        String(today.getDate()).padStart(2, "0");
+
+    localStorage.setItem(
+        "workoutStartDate",
+        dateKey
+    );
+
+    return 27;
+}
+
+    const startParts = 
+    startDate.split("-");
+
+const start = 
+    new Date(
+        Number(startParts[0]),
+        Number(startParts[1]) - 1,
+        Number(startParts[2])
+    );
 
     const today =
         new Date();
@@ -2122,11 +2270,10 @@ function getDayOfYear() {
         Math.floor(
             diff /
             (1000 * 60 * 60 * 24)
-        ) + 25
+        ) + 27
     );
 
 }
-
 
 // =========================================================
 // TROVA ALLENAMENTO DEL GIORNO
@@ -2229,6 +2376,137 @@ console.log("WORKOUT365:", workout365);
         "Allenamento non trovato per il giorno:",
         day
     );
+
+    return null;
+
+}
+
+// =========================================================
+// ALLENAMENTO DI UNA DATA SPECIFICA
+// =========================================================
+
+function getWorkoutForDate(dateKey) {
+
+    if (!workout365) {
+        return null;
+    }
+
+    const startDate =
+        localStorage.getItem("workoutStartDate");
+
+    if (!startDate) {
+        return null;
+    }
+
+    const start =
+        new Date(startDate);
+
+const parts = 
+    dateKey.split("-");
+
+const date = 
+    new Date(
+        Number(parts[0]),
+        Number(parts[1]) - 1,
+        Number(parts[2])
+    );
+
+start.setHours(0, 0, 0, 0); 
+date.setHours(0, 0, 0, 0);
+
+    const diff =
+        date - start;
+
+    const day =
+        Math.floor(
+            diff /
+            (1000 * 60 * 60 * 24)
+        ) + 27;
+
+    if (
+        day < 27 ||
+        day > 365
+    ) {
+        return null;
+    }
+
+
+    // =====================================================
+    // FORMATO CON WEEKS
+    // =====================================================
+
+    if (Array.isArray(workout365.weeks)) {
+
+        for (const week of workout365.weeks) {
+
+            if (!Array.isArray(week.days)) {
+                continue;
+            }
+
+            const workout =
+                week.days.find(
+                    item =>
+                        Number(item.day) === day
+                );
+
+            if (workout) {
+
+                return {
+
+                    ...workout,
+
+                    week:
+                        week.week,
+
+                    weekFocus:
+                        week.focus
+
+                };
+
+            }
+
+        }
+
+    }
+
+
+    // =====================================================
+    // FORMATO DIRETTO ARRAY
+    // =====================================================
+
+    if (Array.isArray(workout365)) {
+
+        const workout =
+            workout365.find(
+                item =>
+                    Number(item.day) === day
+            );
+
+        if (workout) {
+            return workout;
+        }
+
+    }
+
+
+    // =====================================================
+    // FORMATO OBJECT DAYS
+    // =====================================================
+
+    if (Array.isArray(workout365.days)) {
+
+        const workout =
+            workout365.days.find(
+                item =>
+                    Number(item.day) === day
+            );
+
+        if (workout) {
+            return workout;
+        }
+
+    }
+
 
     return null;
 
@@ -2530,36 +2808,44 @@ if (!workout) {
         </div>
 
 
-        ${
-            completed
+       ${
+    completed
 
-            ?
+    ?
 
-            `
+    `
 
-                <button
-                    class="workout-completed"
-                    disabled
-                >
-                    âœ“ ALLENAMENTO COMPLETATO
-                </button>
+        <button
+            class="workout-completed"
+            disabled
+        >
+            âœ“ ALLENAMENTO COMPLETATO
+        </button>
 
-            `
+    `
 
-            :
+    :
 
-            `
+    `
 
-                <button
-                    class="workout-start"
-                    onclick="startWorkout()"
-                >
-                    INIZIA ALLENAMENTO Â· 8 MIN
-                </button>
+        <button
+            class="workout-start"
+            onclick="startWorkout()"
+        >
+            INIZIA ALLENAMENTO Â· 8 MIN
+        </button>
 
-            `
 
-        }
+        <button
+            class="workout-cardio"
+            onclick="completeCardio()"
+        >
+            CARDIO
+        </button>
+
+    `
+
+}
 
     `;
 
@@ -2783,8 +3069,109 @@ function startWorkout() {
 // =========================================================
 
 // =========================================================
-// TERMINA ALLENAMENTO
+// COMPLETA GIORNO CON CARDIO
 // =========================================================
+
+function completeCardio() {
+
+    const day =
+        getDayOfYear();
+
+    const workout =
+        getWorkoutForToday();
+
+    if (!workout) {
+        return;
+    }
+
+    if (workoutCompleted[day]) {
+        return;
+    }
+
+    const today =
+        new Date();
+
+    const dateKey =
+        today.getFullYear() +
+        "-" +
+        String(today.getMonth() + 1).padStart(2, "0") +
+        "-" +
+        String(today.getDate()).padStart(2, "0");
+
+    const automaticNote =
+        "Allenamento Giorno " +
+        day +
+        "/365 · CARDIO al posto dell'allenamento · " +
+        workout.focus;
+
+    workoutCompleted[day] = {
+
+        completed: true,
+
+        date: dateKey,
+
+        circuits: "cardio",
+
+        exercises:
+            workout.exercises || [],
+
+        note:
+            automaticNote
+
+    };
+
+    localStorage.setItem(
+        "workoutCompleted",
+        JSON.stringify(workoutCompleted)
+    );
+
+    if (!progressDays[dateKey]) {
+        progressDays[dateKey] = [];
+    }
+
+    progressDays[dateKey].push({
+
+        target:
+            "Allenamento " +
+            day +
+            "/365",
+
+        color:
+            "#6c9d6c",
+
+        amount:
+            "cardio",
+
+        note:
+            automaticNote,
+
+        workout:
+            true,
+
+        day:
+            day,
+
+        focus:
+            workout.focus,
+
+        circuits:
+            "cardio",
+
+        exercises:
+            workout.exercises || []
+
+    });
+
+    localStorage.setItem(
+        "progressDays",
+        JSON.stringify(progressDays)
+    );
+
+    launchFireworks("#6c9d6c");
+
+    showWorkout();
+
+}
 
 function finishWorkout() {
 
@@ -2815,13 +3202,12 @@ function finishWorkout() {
 
 
     // =====================================================
-    // CHIEDI CIRCUITI COMPLETI O CARDIO
+    // CHIEDI CIRCUITI COMPLETI
     // =====================================================
 
     const circuits =
         prompt(
-            "Quanti circuiti completi hai fatto?\n\n" +
-            "Puoi anche scrivere CARDIO se hai fatto cardio al posto dell'allenamento."
+            "Quanti circuiti completi hai fatto?"
         );
 
 
@@ -2829,55 +3215,29 @@ function finishWorkout() {
         circuits === null
     ) {
 
-        // L'utente ha premuto ANNULLA.
-        // Non completiamo l'allenamento.
-
         return;
 
     }
 
 
-    // =====================================================
-    // GESTIONE CARDIO
-    // =====================================================
-
-    const cardio =
-        circuits
-            .trim()
-            .toLowerCase() === "cardio";
+    const completedCircuits =
+        Number(
+            circuits
+        );
 
 
-    let completedCircuits;
-    let automaticNote;
+    if (
+        !Number.isInteger(
+            completedCircuits
+        ) ||
+        completedCircuits < 0
+    ) {
 
+        alert(
+            "Inserisci un numero valido di circuiti."
+        );
 
-    if (cardio) {
-
-        completedCircuits =
-            "cardio";
-
-    } else {
-
-        completedCircuits =
-            Number(
-                circuits
-            );
-
-
-        if (
-            !Number.isInteger(
-                completedCircuits
-            ) ||
-            completedCircuits < 0
-        ) {
-
-            alert(
-                "Inserisci un numero valido di circuiti oppure CARDIO."
-            );
-
-            return;
-
-        }
+        return;
 
     }
 
@@ -2924,27 +3284,15 @@ function finishWorkout() {
             .join(", ");
 
 
-    if (cardio) {
-
-        automaticNote =
-            "Allenamento Giorno " +
-            day +
-            "/365 Â· CARDIO al posto dell'allenamento Â· " +
-            workout.focus;
-
-    } else {
-
-        automaticNote =
-            "Allenamento Giorno " +
-            day +
-            "/365 Â· " +
-            workout.focus +
-            " Â· " +
-            completedCircuits +
-            " circuiti completi Â· " +
-            exerciseList;
-
-    }
+    const automaticNote =
+        "Allenamento Giorno " +
+        day +
+        "/365 · " +
+        workout.focus +
+        " · " +
+        completedCircuits +
+        " circuiti completi · " +
+        exerciseList;
 
 
     // =====================================================
@@ -3074,13 +3422,119 @@ function finishWorkout() {
     showWorkout();
 
 }
-async function startWorkoutApp() {
+function initializeCompletedDays() {
 
-    await loadWorkout365();
+    // Esegui questa inizializzazione una sola volta
+    if (localStorage.getItem("initialDaysCompleted27")) {
+        return;
+    }
 
-    showWorkout();
+    if (!workout365) {
+        return;
+    }
 
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    function findWorkout(dayNumber) {
+
+        if (Array.isArray(workout365)) {
+            return workout365.find(
+                item => Number(item.day) === dayNumber
+            ) || null;
+        }
+
+        if (workout365.weeks) {
+
+            for (const week of workout365.weeks) {
+
+                if (!week.days) continue;
+
+                const workout = week.days.find(
+                    item => Number(item.day) === dayNumber
+                );
+
+                if (workout) {
+                    return workout;
+                }
+            }
+        }
+
+        if (workout365.days) {
+            return workout365.days.find(
+                item => Number(item.day) === dayNumber
+            ) || null;
+        }
+
+        return null;
+    }
+
+    for (let day = 1; day <= 26; day++) {
+
+        const date = new Date(today);
+
+        date.setDate(
+            today.getDate() - (27 - day)
+        );
+
+        const dateKey =
+            date.getFullYear() +
+            "-" +
+            String(date.getMonth() + 1).padStart(2, "0") +
+            "-" +
+            String(date.getDate()).padStart(2, "0");
+
+        const workout = findWorkout(day);
+
+        workoutCompleted[day] = {
+            completed: true,
+            date: dateKey,
+            circuits: "completato",
+            exercises: workout
+                ? workout.exercises.map(exercise => ({
+                    name: exercise.name,
+                    prescription:
+                        getExercisePrescription(exercise)
+                }))
+                : [],
+            note: "Allenamento completato in precedenza"
+        };
+
+        if (!progressDays[dateKey]) {
+            progressDays[dateKey] = [];
+        }
+
+        progressDays[dateKey].push({
+            workout: true,
+            day: day,
+            focus: workout?.focus || "Allenamento",
+            exercises: workout
+                ? workout.exercises
+                : [],
+            note: "Allenamento completato in precedenza"
+        });
+    }
+
+    localStorage.setItem(
+        "workoutCompleted",
+        JSON.stringify(workoutCompleted)
+    );
+
+    localStorage.setItem(
+        "progressDays",
+        JSON.stringify(progressDays)
+    );
+
+    localStorage.setItem(
+        "initialDaysCompleted27",
+        "true"
+    );
 }
 
+async function startWorkoutApp() {
+    await loadWorkout365();
+    initializeCompletedDays();
+    showHome();
+}
 
 startWorkoutApp();

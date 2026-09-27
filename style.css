@@ -1358,6 +1358,41 @@ nav button:active {
 
 }
 
+.workout-cardio {
+
+    width: 100%;
+
+    margin-top: 10px;
+
+    padding: 14px;
+
+    border: 1px solid var(--accent);
+
+    border-radius: 15px;
+
+    background: transparent;
+
+    color: var(--accent);
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+
+.workout-cardio:active {
+
+    background: rgba(108,157,108,0.12);
+
+    transform: scale(0.98);
+
+}
 
 .workout-completed {
 
@@ -1428,4 +1463,9 @@ nav button:active {
 
     font-weight: 700;
 
+}
+.target-days-remaining {
+    font-size: 13px;
+    color: #777;
+    margin-top: 6px;
 }
