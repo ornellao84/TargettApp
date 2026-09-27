@@ -50,7 +50,8 @@ jobs:
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleRelease --stacktrace --info 2>&1 | tee build.logo
+          ./gradlew assembleRelease --stacktrace --info
+          find . -type f -print | grep -E "apk|aab"
 
 
       - name: Find APK
